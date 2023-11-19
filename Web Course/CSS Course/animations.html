@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .square {
+            width: 150px;
+            height: 150px;
+            background-color: black;
+        }
+        .square:hover {
+            animation-name: ToYellow;
+            animation-duration: 2s;
+            animation-delay: 1s;
+        }
+        @keyframes ToYellow {
+            from {background-color: black;}
+            to {background-color: yellow;}
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+</body>
+</html>
